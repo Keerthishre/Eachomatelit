@@ -38,6 +38,6 @@ jobs:
       - name: delete all old images
         run: docker rmi $(docker images -a -q)
       - name: pull image from docker hub
-        run: docker pull echomatelite/nextjs-app:latest
+        run: docker pull keerthishree123/nextjs_app:latest
       - name: Run Docker container
-        run: docker run -d -p 3000:3000 --name nextjs-app-contianer echomatelite/nextjs-app:latest
+        run: docker run -d -p 3000:3000 --name nextjs-app-contianer keerthishree123/nextjs_app:latest
