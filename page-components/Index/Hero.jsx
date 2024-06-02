@@ -20,7 +20,7 @@ const Hero = () => {
           <Spacer axis="horizontal" size={1} />
           <Container>
             <ButtonLink
-              href="https://github.com/anil-g11h/echo_mate_lite"
+              href="https://github.com/Keerthishre/Eachomatelit"
               type="secondary"
               className={styles.button}
             >
