@@ -9,7 +9,7 @@ const Hero = () => {
       <div>
         <h1 className={styles.title}>
           <span className={styles.nextjs}>EchoMateLite</span>
-          <span className={styles.mongodb}>#SocialMedia</span>
+          <span className={styles.mongodb}>Social</span>
         </h1>
         <Container justifyContent="center" className={styles.buttons}>
           <Container>
